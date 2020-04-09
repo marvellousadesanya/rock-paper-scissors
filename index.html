@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Sen&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Hi! Come play rock, paper, scissors with Marv</h1>
+        <p class='paragraph'>The first player to get to 40 points wins the game.</p>
+        <div class='inner-container'>
+            <div class='player-0-panel'>
+                <h3 class='player-name-1'>Player 1</h3>
+                <img src="white.png" alt="pic1" class='player-pick' id='player-1-pick'>
+                <div class='player-scores'>
+                    <div>Your score:</div>
+                    <div id='player-0-score'>0</div>
+                </div>
+            </div>
+
+
+            <div class='options'>
+                <h5>Choose one:</h5>
+                <div id='rock'><a href='#' id='opt1'>rock</a></div>
+                <div id='paper'><a href="#" id='opt2'>paper</a></div>
+                <div id='scissors'><a href="#" id='opt3'>scissors</a></div>
+                <h3 id='result'></h3>
+                <button class='btn-danger' id='new-game'>New Game</button>
+            </div>
+
+            <div class='player-1-panel'>
+                <h3 class='Marv-name'>Marv</h3>
+                <img src="marvpic.jpg" alt="pic2" class='player-pick' id='player-2-pick'>
+                <div class='player-scores'>
+                    <div>Marv's score:</div>
+                    <div id='player-1-score'>0</div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+    <script src='code.js'></script>   
+</body>
+</html>
